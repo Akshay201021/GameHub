@@ -1,0 +1,53 @@
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: indianred;
+}
+.form-container{
+  background-color: black;
+  padding:20px;
+  border-radius: 8px;
+  box-shadow:  0 0 10px rgba(0,0,0,0.1);
+  width:300px;
+}
+form{
+  display:flex;
+  flex-direction:column;
+}
+label, input{
+  margin-bottom: 10px;
+}
+input[type="text"], input[type="game"]{
+  padding:8px;
+  border-radius:4px;
+}
+input[type="submit"]{
+  padding: 10px;
+  border-radius: 5px;
+  cursor:pointer;
+  background-color: maroon;
+  color:white;
+}
+input[type="submit"]:hover{
+  background-color: red;
+}
+h1{
+  background-color: indianred;
+  color:white;
+  text-align: center;
+  padding:10px;
+  border-radius:5px;
+}
+button{
+  background-color: black;
+  color:white;
+  padding:10px;
+  border-radius: 5px;
+  margin-right:10px;
+  cursor:pointer;
+  transition: transform 0.5s ease-in-out;
+}
+button:hover{
+  transform:scale(0.8);
+}
